@@ -1,0 +1,8 @@
+.Container {
+    flex: 1;
+    height: 30px;
+    width: 100%;
+    background-color: blue;
+    margin: 0;
+    border: 0;
+}
