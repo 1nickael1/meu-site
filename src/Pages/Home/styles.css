@@ -1,0 +1,10 @@
+.home {
+    display: flex;
+    flex: 1;
+    height: 500px;
+    background-color: red;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}

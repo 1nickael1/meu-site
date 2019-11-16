@@ -1,9 +1,11 @@
 import React from 'react';
 
-// import { Container } from './styles';
+import './styles.css';
 
 export default function Sobre() {
-  return (
-    <p>Sobre</p>
-  );
+    return (
+        <div className="sobre">
+            <p>Essa é a páginade Sobre</p>;
+        </div>
+    );
 }

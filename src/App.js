@@ -1,15 +1,14 @@
 import React from 'react';
 import Router from './Routes';
-
-import Header from './Components/Header';
+import GlobalStyle from './styles/Global';
 
 function App() {
-  return (
-    <>
-    <Header />
-    <Router />
-    </>
-  );
+    return (
+        <>
+            <Router />
+            <GlobalStyle />
+        </>
+    );
 }
 
 export default App;

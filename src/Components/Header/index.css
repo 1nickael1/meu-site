@@ -1,8 +1,34 @@
-.Container {
-    flex: 1;
+.container {
     height: 30px;
     width: 100%;
-    background-color: blue;
+    background-color: #454b66;
     margin: 0;
     border: 0;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.menu a {
+    color: #9ca3db;
+    display: flex;
+    text-decoration-line: inherit;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.rota {
+    background-color: #677db7;
+    border-radius: 4px;
+
 }

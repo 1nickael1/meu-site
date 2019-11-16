@@ -1,9 +1,11 @@
 import React from 'react';
 
-// import { Container } from './styles';
+import './styles.css';
 
 export default function Home() {
-  return (
-    <p>Home</p>
-  );
+    return (
+        <div className="home">
+            <p>Essa é a páginade Home</p>;
+        </div>
+    );
 }
