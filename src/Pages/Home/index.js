@@ -12,6 +12,7 @@ export default function Home() {
     }, []);
     return (
         <div className="home">
+            <h2>Meus projetos =)</h2>
             {repo.map(e => {
                 return (
                     <button
