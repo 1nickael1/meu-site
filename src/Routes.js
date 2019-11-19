@@ -12,6 +12,7 @@ export default function Router() {
             <Switch>
                 <Route exact path="/" component={Home} />
                 <Route path="/sobre" component={Sobre} />
+                <Route component={Home} />
             </Switch>
         </BrowserRouter>
     );
