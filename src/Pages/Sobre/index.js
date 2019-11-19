@@ -5,7 +5,7 @@ import './styles.css';
 export default function Sobre() {
     return (
         <div className="sobre">
-            <p>Essa é a páginade Sobre</p>;
+            <p>Meu nome é Nickael e estou nos primeitos testes do site =)</p>;
         </div>
     );
 }
