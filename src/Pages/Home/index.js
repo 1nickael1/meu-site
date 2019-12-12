@@ -34,39 +34,8 @@ export default function Home() {
         setGraph(resultado);
     }
     useEffect(() => {
-        requisicao().finally(setLoading(false));
+        requisicao().finally(() => setLoading(false));
     }, []);
-
-    async function fetchData() {
-        await axios
-            .get('https://api.github.com/users/1nickael1/repos')
-            .then(res => {
-                setRepo(res.data);
-            });
-        console.log('fetch');
-    }
-
-    async function setArray() {
-        const dados = repo;
-        valor = dados.length;
-
-        dados.map(e => {
-            axios
-                .get(`https://api.github.com/repos/1nickael1/${e.name}/commits`)
-                .then(len =>
-                    resultado.push({
-                        x: resultado.length,
-                        y: len.data.length,
-                    })
-                )
-                .then(r => console.log(r));
-        });
-        console.log('array');
-    }
-
-    if (resultado.length > 1) {
-        setLoading(false);
-    }
 
     if (loading) {
         return <div>Carregando...</div>;
