@@ -32,6 +32,7 @@ export default function Home() {
         console.log(b);
         console.log(resultado);
         setGraph(resultado);
+        return Promise.all(b);
     }
     useEffect(() => {
         requisicao().finally(() => setLoading(false));
