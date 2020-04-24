@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import novoBackground from './Background.png'
 
 export default createGlobalStyle`
     * {
@@ -13,8 +14,8 @@ export default createGlobalStyle`
     }
 
     body {
-        margin: 10px;
-        background: #191308;
+        /* margin: 10px; */
+        background-color: #7A7EA8;
         -webkit-font-smoothing: antialiased !important;
     }
 `;
